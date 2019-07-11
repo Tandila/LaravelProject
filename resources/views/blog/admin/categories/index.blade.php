@@ -1,8 +1,8 @@
-@extends('layouts.app)
+@extends('layouts.app')
 
 @section('content')
     <div class="container">
-        <div class="row justify-content-center">
+        <div class="justify-content-center">
             <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
                 <a class="btn btn-primary" href="{{route('blog.admin.categories.create')}}">Add in</a>
             </nav>
